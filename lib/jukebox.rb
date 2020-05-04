@@ -24,9 +24,9 @@ songs = [
 
 
 #the help method
-def help 
+ddef help
   puts "I accept the following commands:"
-  puts "- help : display this help message"
+  puts "- help : displays this help message"
   puts "- list : displays a list of songs you can play"
   puts "- play : lets you choose a song to play"
   puts "- exit : exits this program"
@@ -35,12 +35,7 @@ end
 
 
 #the play method
-def play(songs)
+#def play(songs)
   
-end
+#end
 
-  puts "I accept the following commands:"
-  puts "- help : displays this help message"
-  puts "- list : displays a list of songs you can play"
-  puts "- play : lets you choose a song to play"
-  puts "- exit : exits this program"
