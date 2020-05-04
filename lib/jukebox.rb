@@ -48,9 +48,9 @@ end
 
 
 #the play method
-#def play(songs)
+def play(songs)
   
-#end
+end
 
 puts "Please enter a song name or number:"
 puts "Invalid input, please try again"
