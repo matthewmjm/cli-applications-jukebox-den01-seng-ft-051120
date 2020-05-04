@@ -55,5 +55,5 @@ def play(songs)
   
 end
 
-
+puts ""
 puts "Invalid input, please try again"
