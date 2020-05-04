@@ -69,7 +69,7 @@ end
 
 #the run method (exit, help, list, play)
 def run(songs)
-#  puts "list - play - help - exit"
+  puts "list - play - help - exit"
   puts "Please enter a command:"
   input_command = gets.strip
   
