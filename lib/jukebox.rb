@@ -66,3 +66,10 @@ def exit_jukebox
 end
 
 
+
+#the run method (exit, help, list, play)
+
+
+
+
+
