@@ -23,6 +23,7 @@ songs = [
 ]
 
 
+
 #the help method
 def help
   puts "I accept the following commands:"
@@ -31,6 +32,16 @@ def help
   puts "- play : lets you choose a song to play"
   puts "- exit : exits this program"
 end
+
+
+
+
+#the list method
+def list
+  
+end
+
+
 
 
 
