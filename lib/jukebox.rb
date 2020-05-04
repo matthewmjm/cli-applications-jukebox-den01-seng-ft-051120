@@ -61,3 +61,8 @@ def play(songs)
 
 
 #the exit jukebox method
+def exit_jukebox
+  puts "Goodbye"
+end
+
+
