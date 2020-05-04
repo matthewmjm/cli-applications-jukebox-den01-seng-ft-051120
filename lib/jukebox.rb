@@ -37,7 +37,7 @@ end
 
 
 #the list method
-def list
+def list(songs)
   
 end
 
