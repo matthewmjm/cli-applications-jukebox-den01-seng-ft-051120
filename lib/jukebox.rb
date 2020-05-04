@@ -69,18 +69,22 @@ end
 
 #the run method (exit, help, list, play)
 def run(songs)
-  puts "list - play - help - exit"
+#  puts "list - play - help - exit"
   puts "Please enter a command:"
   input_command = gets.strip
   
   while input_command != "exit" do
-    
-    
-    
-    
-    
-    
-  
+    if input_command == 'help'
+      help
+    elsif input_command == 'list'
+      list(songs)
+    elsif input_command == 'play'
+      play(songs)
+    else
+      puts "invalid command"
+    end
+    puts "Please enter a command:"
+    input_command = gets.strip
   end
   exit_jukebox
 end  
