@@ -38,8 +38,8 @@ end
 
 #the list method
 def list(songs)
-  songs.each_with_index do |num, idx|
-    puts "#{idx + 1}. "
+  songs.each_with_index do |song, idx|
+    puts "#{idx + 1}. #{song}"
 end
 
 
