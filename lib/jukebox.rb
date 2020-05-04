@@ -39,7 +39,7 @@ end
 #the list method
 def list(songs)
   songs.each_with_index do |num, idx|
-    puts 
+    puts "#{idx + 1}. "
 end
 
 
